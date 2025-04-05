@@ -1,0 +1,9 @@
+[package]
+name = "mkdesktop"
+description = "Easily create XDG Desktop entry files for any command."
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.35", features = ["derive"] }
+xdg = "2.5.2"
